@@ -1,0 +1,28 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.formContainer.input,
+.formContainer>textarea{
+    width: 100%;
+    outline: none;
+    padding: 0.8rem;
+    border: 2px solid rgb(213,213,213);
+    border-radius: 1.5rem;
+
+}
+.formContainer>span>span{
+    font-weight: bold;
+    color: var(--themeRed);
+    font-size: 1.3rem;
+
+}
+
+.formContainer>button{
+    padding: 0.9rem;
+    font-size: 1rem;
+    background-color: rgb(59 208 59);
+}
