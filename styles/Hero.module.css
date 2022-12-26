@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    position: relative;
+
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cherryDiv{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   width: fit-content;
+   background-color: var(--pink);
+   margin-top: 3rem;
+   padding: 1rem;
+   border-radius: 2rem;
+   font-size: 0.8rem;
+   color: var(--themeRed);
+   font-weight: bold ;
+
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.miniText{
+    width: 70%;
+    color: var(--gray);
+    font-weight: 600;
+}
+.btn{
+    padding: 1rem 2.5rem;
+}
+
+ .right{
+    position: inherit;
+
+}
+
+.imageContainer{
+    width: 38rem;
+    /* position: absolute; */
+    top: -5rem;
+    left: -5rem;
+} 
+.ContactUs{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 5rem;
+    top: 6rem;
+    left: -6rem;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    color: var(--themeRed);
+}
+
+.ContactUs>div{
+    background: rgb(59 208 59);
+    border-radius: 50%;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+
+
+}
+ .ContactUs:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+
+ .Pizza{
+    display: flex;
+    background-color: white;
+    box-shadow: var(--shadow);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 19rem;
+    width: max-content;
+ }
+
+ .Pizza>:nth-child(1)
+ {
+    width: 6rem;
+    height: 4rem;
+    overflow: hidden;
+    border-radius: .5rem;
+ }
+
+ .Pizza>:nth-child(2)
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+ }
+ .Pizza:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+ }

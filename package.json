@@ -12,6 +12,8 @@
     "@iconscout/react-unicons": "^1.1.6",
     "@mantine/core": "^4.2.12",
     "@mantine/hooks": "^4.2.12",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.32.0",
     "next": "12.2.0",
     "react": "18.2.0",

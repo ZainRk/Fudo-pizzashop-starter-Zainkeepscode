@@ -1,0 +1,54 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading>:nth-child(1)
+{
+    color: var(--themeRed);
+    font-size: 1rem;
+}
+
+.heading>:nth-child(2), .heading>:nth-child(3)
+{
+    font-size: 2rem;
+}
+
+.services{
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+
+}
+.ImageWrapper{
+    width: 10rem;
+    height: 10rem;
+
+}
+.feature>:nth-child(2)
+{
+   font-weight: bold; 
+
+}
+
+
+.feature>:nth-child(3)
+{
+    color: var(--gray);
+    word-wrap: break-word;
+    width: 20rem;
+    text-align: center;
+}
